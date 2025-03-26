@@ -1,0 +1,169 @@
+html,
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.athel-menu {
+  padding-right: 20px;
+  height: 100%;
+  box-sizing: content-box;
+}
+.athel-menu ul {
+  margin-top: 40px;
+}
+.athel-menu .selected {
+  color: white;
+}
+#first {
+  background-color: #28477d;
+}
+
+.sidebar-header {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding: 20px auto;
+  margin: auto;
+}
+
+.athel-menu-cont {
+  background-color: #0c1e33;
+  width: 15%;
+  position: absolute;
+  height: 100vh !important;
+  display: inline;
+  transition: width 0.3s ease;
+}
+.athel-menu-cont:hover + .athel-children-cont {
+}
+
+.athel-menu-cont:hover + .athel-children-cont {
+  width: 89vw;
+  margin-left: 15vw;
+}
+.completed,
+.upcoming {
+  border-radius: 10px;
+  width: fit-content;
+  height: 30px;
+  padding: 4px 15px;
+  background-color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.completed {
+  color: rgb(41, 198, 109);
+  background-color: rgba(7, 209, 94, 0.2);
+  border: 1.5px solid rgba(11, 172, 81, 0.75);
+}
+.upcoming {
+  color: rgba(233, 142, 16);
+  background-color: rgba(242, 167, 59, 0.2);
+  border: 1.5px solid rgba(242, 167, 59, 0.75);
+}
+.pay {
+  width: fit-content !important;
+}
+
+.athel-children-cont {
+  width: 95vw;
+  margin-left: 8vw;
+  height: 100vh !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Mukta", sans-serif !important;
+}
+
+.athel-menu:hover i {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.athel-menu .menu-icon-cont {
+  width: 30px;
+  display: inline-block;
+}
+
+.athel-menu i,
+.athel-menu .icons {
+  font-size: 14px;
+  margin-left: 15px;
+  margin-right: 10px;
+  width: 100%;
+  opacity: 100%;
+  height: 30px;
+}
+
+.menu-list-items {
+  margin: auto;
+  white-space: nowrap;
+  visibility: hidden;
+  margin-left: 10px;
+  transition: display 0.6s ease-out, margin-left 0.1s ease-out;
+}
+
+.athel-menu-cont:hover .menu-list-items {
+  visibility: visible;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+.athel-menu li {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+.athel-user-type:hover,
+.athel-services.checked,
+.athel-user.checked {
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  background: rgba(107, 78, 255, 0.2);
+}
+.athel-services input[type="radio"],
+.athel-user input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.athel-home {
+  flex-direction: row;
+  height: 100vh;
+  margin: auto;
+}
+.athel-Consul .form-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.athel-Consul {
+}
+.athel-Consul {
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.menu-item {
+  color: white !important;
+  text-decoration: none;
+}
+.menu-link {
+  color: white !important;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none; /* Removes bullets */
+  padding: 0;
+  margin: 0;
+}
