@@ -13,7 +13,7 @@ function DatesheetGenerator() {
 
   return (
     <div>
-      <h1>Exam Datesheet Generator</h1>
+      <h1>Exam Datesheet Generat</h1>
       <div>
         <label>Start Date:</label>
         <input
